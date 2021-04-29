@@ -46,10 +46,7 @@ parser.add_argument('--teacher', type=str, default='',
 parser.add_argument('--teacher-weight', type=str, default='',
                     help='teacher model weight path')
 parser.add_argument('--kd-loss-weight', type=float, default=1.0,
-                    help='feature konwledge distillation loss weight')
-parser.add_argument('--kd-loss-type', type=str, default='mse',
-                    help='feature konwledge distillation loss type')
-
+                    help='review kd loss weight')
 parser.add_argument('--kd-warm-up', type=float, default=20.0,
                     help='feature konwledge distillation loss weight warm up epochs')
 
