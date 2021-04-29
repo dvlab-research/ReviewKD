@@ -80,24 +80,7 @@ class Logger():
 
 def load_teacher_weight(teacher, teacher_weight, teacher_model):
     weight = torch.load(teacher_weight)
-    if 'rep' in teacher_weight :
-        weight = weight['model']
-    if 'fpn' in teacher_model:
-        teacher.bottom_up.load_state_dict(weight)
-        #for p in teacher.bottom_up.parameters():
-        #    p.requires_grad = False
-        for p in teacher.parameters():
-            p.requires_grad = False
-
-    else:
-        '''
-        nw = {}
-        for k in weight:
-            if 'bottom_up' in k:
-                nw[k[10:]] = weight[k]
-        weight = nw
-        '''
-        teacher.load_state_dict(weight)
-        for p in teacher.parameters():
-            p.requires_grad = False
+    teacher.load_state_dict(weight)
+    for p in teacher.parameters():
+        p.requires_grad = False
 
