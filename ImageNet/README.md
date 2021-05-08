@@ -11,7 +11,7 @@ We verify our code on
 
 Other similar envirouments should also work properly.
 
-### Install
+### Installation
 
 We use apex, please install apex refer to https://github.com/NVIDIA/apex 
 ```
@@ -29,7 +29,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 
 ### Training
 
-Use the following command for training resnet-18 with ReviewKD
+Use the following command to train resnet-18 with ReviewKD
 ```
 python -m torch.distributed.launch --nproc_per_node=4 imagenet_amp.py \
     -a resnet18 --save_dir output/r18-r34/ \
@@ -39,7 +39,7 @@ python -m torch.distributed.launch --nproc_per_node=4 imagenet_amp.py \
     path-to-ImageNet
 ```
 
-Use the following command for training mobilenet with ReviewKD
+Use the following command to train mobilenet with ReviewKD
 ```
 python -m torch.distributed.launch --nproc_per_node=4 imagenet_amp.py \
     -a mobilenet --save_dir output/mv2-r50/ \
