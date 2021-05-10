@@ -90,7 +90,7 @@ def build_review_kd(model):
 
 def hcl(fstudent, fteacher):
     loss_all = 0.0
-    for fs, ft, channel in zip(fstudent, fteacher, channels):
+    for fs, ft in zip(fstudent, fteacher):
         n,c,h,w = fs.shape
         loss = F.mse_loss(fs, ft, reduction='mean')
         cnt = 1.0
