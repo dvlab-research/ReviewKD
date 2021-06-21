@@ -121,6 +121,9 @@ CIFAR-100/checkpoints/
 CIFAR-100/data/
 CIFAR-100/pretrained/
 imagenet/output/
+Detection/datasets/
+Detection/output/
+Detection/pretrained/
 tmp/
 
 *.swn
