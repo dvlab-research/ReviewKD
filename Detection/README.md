@@ -40,3 +40,8 @@ Use the following command to train Faster-RCNN-FPN-MobileNetV2 with ReviewKD for
 ```
 python train_net.py --config-file configs/ReviewKD-MV2-R50-Mask.yaml --num-gpus 4
 ```
+
+Use the following command to train RetinaNet-50 with ReviewKD for COCO Detection
+```
+python train_net.py --config-file configs/ReviewKD-RT50-RT101.yaml --num-gpus 4
+```
