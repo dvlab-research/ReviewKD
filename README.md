@@ -15,11 +15,11 @@ Please refer to [ImageNet](https://github.com/Jia-Research-Lab/ReviewKD/tree/mas
 
 ## COCO Detection
 
-Coming soon
+Please refer to [Detection](https://github.com/dvlab-research/ReviewKD/tree/master/Detection) for more details.
 
 ## COCO Instance Segmentation
 
-Coming soon
+Please refer to [Detection](https://github.com/dvlab-research/ReviewKD/tree/master/Detection) for more details.
 
 ## <a name="Citation"></a>Citation
 
