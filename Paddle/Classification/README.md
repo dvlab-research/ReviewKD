@@ -6,7 +6,7 @@ For more details of image classification models based on PaddlePaddle, please re
 
 ## 1. Prepare for the environment.
 
-Please refer to [installation](./install_en.md) to install PaddlePaddle.
+Please refer to [installation](./install.md) to install PaddlePaddle.
 
 Then use the following command to install the dependencies.
 
