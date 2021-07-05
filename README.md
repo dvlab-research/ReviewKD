@@ -21,6 +21,10 @@ Please refer to [Detection](https://github.com/dvlab-research/ReviewKD/tree/mast
 
 Please refer to [Detection](https://github.com/dvlab-research/ReviewKD/tree/master/Detection) for more details.
 
+## Paddle
+
+Thanks to [@littletomatodonkey](https://github.com/littletomatodonkey), the paddle vision of our code is available [here](https://github.com/dvlab-research/ReviewKD/tree/master/Paddle/Classification). 
+
 ## <a name="Citation"></a>Citation
 
 Please consider citing ReviewKD in your publications if it helps your research.
